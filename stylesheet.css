@@ -1,0 +1,68 @@
+.topnav {
+    background-color: rgb(100,100,0);
+}
+
+.left {
+    width: 75%;
+    margin-left: 0px;
+}
+
+.middle {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.right {
+    border: blanchedalmond dashed 8px;
+    width: 75%;
+    margin-right: 0px;
+}
+
+.loadingImg {
+    width: 100%;
+    height: auto;
+}
+
+.highlighted {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.meltable:hover {
+    width:200px;
+    height:200px;
+}
+
+.meltable:hover ~ .heat {
+    width: 50px;
+    height: 50px;
+}
+
+.heat:hover {
+    width:200px;
+    height:200px;
+}
+
+.heat:hover ~ .meltable {
+    width: 50px;
+    height: 50px;
+
+}
+
+#galleryWelcome {
+    border: firebrick ridge 2px;
+    padding-left: 50px;
+}
+
+.midText {
+    background-color: firebrick;
+    padding: 20px;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
